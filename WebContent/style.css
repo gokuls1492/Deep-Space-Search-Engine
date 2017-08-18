@@ -1,0 +1,336 @@
+@charset "utf-8";
+body {
+	margin:0;
+	padding:0;
+	width:100%;
+	color:#959595;
+	font:normal 12px/1.8em Arial, Helvetica, sans-serif;
+	min-width: 700px;
+}
+html, .main {
+	padding:0;
+	margin:0;
+}
+.main {
+	
+}
+.clr {
+	clear:both;
+	padding:0;
+	margin:0;
+	width:100%;
+	font-size:0;
+	line-height:0;
+}
+.logo {
+	padding:0;
+	float:left;
+	width:auto;
+}
+h1 {
+	margin:0;
+	padding:40px 0 40px 14px;
+	float:left;
+	color:#fff;
+	font:normal 80px/1.2em Arial, Helvetica, sans-serif;
+	letter-spacing:-4px;
+}
+h1 span {
+	font-weight:bold;
+}
+h1 a, h1 a:hover {
+	color:#fff;
+	text-decoration:none;
+}
+h1 small {
+	display:block;
+	margin-top:2px;
+	padding:0 0 0 108px;
+	font:normal 25px/1.2em Arial, Helvetica, sans-serif;
+	letter-spacing:normal;
+}
+h2 {
+	font:normal 24px/1.5em Arial, Helvetica, sans-serif;
+	padding:8px 0;
+	margin:0 0 8px;
+	color:#323a3f;
+}
+p {
+	margin:8px 0;
+	padding:0 0 8px 0;
+	font:normal 12px/1.8em Arial, Helvetica, sans-serif;
+}
+p.spec {
+	padding-bottom:16px;
+	text-align:left;
+	border-bottom:1px solid #dfdede;
+}
+p.infopost {
+	padding:4px 8px;
+	border:1px solid #e9e8e8;
+}
+a {
+	color:#30b0d5;
+	text-decoration:underline;
+}
+a.rm {
+}
+a.com {
+	margin:0;
+	padding:0;
+	text-decoration:none;
+}
+a.com span {
+	font-weight:bold;
+}
+
+.header {
+	background:#fff url(images/header_bg.jpg) repeat-x center top;
+	padding:15px 0;
+	}
+.header_resize {
+	margin:0 auto;
+	padding:0px 0;
+	width:1000px;
+}
+
+
+
+.fbg {
+	background-color:#4d90fe;
+}
+.fbg_resize {
+	margin:0 auto;
+	width:922px;
+	padding:10px;
+	color:#fff;
+}
+.fbg .c2 a, .fbg .c3 a {
+	margin:0;
+	padding:2px 4px;
+	color:#fff;
+	text-decoration:underline;
+}
+.fbg h2 {
+	color:#fff;
+}
+.fbg img {
+	margin:0 4px 0 0;
+	padding:3px;
+	background-color:#fff;
+	border:1px solid #5b97a9;
+}
+.fbg .col {
+	margin:0;
+	float:left;
+}
+.fbg .c1 {
+	padding:0 16px 0 0;
+	width:266px;
+}
+.fbg .c2 {
+	padding:0 16px;
+	width:300px;
+}
+.fbg .c3 {
+	padding:0 0 0 16px;
+	width:260px;
+}
+.footer {
+	background:#282828 url(images/footer_bg.gif) repeat-x center top;
+}
+.footer_resize {
+	margin:0 auto;
+	padding:10px;
+	width:922px;
+}
+.footer p {
+	margin:0;
+	padding:4px 0;
+	line-height:normal;
+}
+.footer a {
+	color:#959595;
+	padding:inherit;
+	text-decoration:underline;
+}
+.footer a:hover {
+	text-decoration:none;
+}
+.footer .lf {
+	float:left;
+}
+.footer .rf {
+	float:right;
+}
+
+/* div container containing the form  */
+#searchContainer {	
+	min-width:700px;
+	margin: 152px 400px;
+}
+
+/* Style the search input field. */
+#field {
+	float:left; 
+	width:400px; 
+	height:27px; 
+	line-height:27px;
+	text-indent:10px; 
+	font-family:arial, sans-serif; 
+	font-size:1em; 
+	color:#333; 
+	background: #fff; 
+	border:solid 1px #d9d9d9; 
+	border-top:solid 1px #c0c0c0; 
+	border-right:none;
+}
+
+/* Syle the search button. Settings of line-height, font-size, text-indent used to hide submit value in IE */
+#submit {
+	cursor:pointer; 
+	width:70px; 
+	height: 31px; 
+	line-height:0; 
+	font-size:0; 
+	text-indent:-999px;
+	color: transparent;  
+	background: url(images/ico-search.png) no-repeat #4d90fe center; 
+	background-size: 30px 30px;
+	border: 1px solid #3079ED; 
+	-moz-border-radius: 2px; 
+	-webkit-border-radius: 2px; 
+}
+/* Style the search button hover state */
+#submit:hover {
+	background: url(images/ico-search.png) no-repeat center #357AE8; 
+	background-size: 30px 30px;
+	border: 1px solid #2F5BB7;
+}
+/* Clear floats */
+.fclear {clear:both}
+
+/*****************/
+#content
+{
+    margin-left:24px;
+    margin-right:24px;
+}
+
+#tabheader #tabcontainer
+{
+    font: normal 14px arial, sans, sans-serif;
+    -list-style-type: none;
+    border-bottom: 1px solid gray;
+    margin: 0;
+    padding-left:0;
+    padding-right:0;
+    padding-bottom: 26px;
+}
+
+#tabheader #tabcontainer .tab
+{
+    display: inline;
+    float: left;
+    height: 24px;
+    min-width:120px;
+    text-align:center;
+    padding:0;
+    margin: 1px 0px 0px 0px;
+    border: 1px solid gray;	
+}
+
+.link .url
+{	
+	color: #006621;
+}
+
+
+.link h3
+{
+	color : #1a0dab
+}
+
+.link-content
+{
+	color : black
+}
+
+.link
+{
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-top: 1px;
+}
+
+.link:hover
+{
+	background-color: #FFEFEF;
+	pointer: default;
+}
+
+
+h3
+{
+	-webkit-margin-after: 0em;
+}
+
+#tabheader #tabcontainer .tab:hover
+{
+	text-decoration:underline;
+	cursor:pointer;
+}
+#tabheader #tabcontainer .selected 
+{
+    color: black;
+    border-bottom: 1px solid #fff;
+    background-color: #fff;
+}
+
+
+#tabs ul li a 
+{
+    float: left;
+    color: #666;
+    text-decoration: none;
+    padding: 4px;
+    text-align:center;
+    background-color:#eee;
+    min-width:80px;
+    border-bottom: 1px solid gray;
+}
+
+#tabs ul li a.selected
+{
+    color: #000;
+    font-weight:bold;
+    background-color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+#tabs ul li a:hover
+{
+    color: #000;
+    font-weight:bold;
+    background-color: #fff;
+}
+
+#container 
+{
+    background: white;
+    border:1px solid gray;
+    border-top: none;
+    height:350px;
+    width:100%;
+    padding:0;
+    margin:0;
+    left:0;
+    top:0;	
+}
+
+iframe
+{
+    border:none;
+    margin:0;
+    padding:0;
+}
